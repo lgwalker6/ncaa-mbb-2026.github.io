@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Table</title>
+    <style>
+        table {border-collapse: collapse; width: 50%; margin: 20px auto;}
+        th, td {border: 1px solid black; padding: 8px; text-align: left;}
+        th {background-color: #f2f2f2;}
+        h2 {text-align: center;}
+    </style>
+</head>
+<body>
+    <h2>Data Table</h2>
+    <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Team</th>
+      <th>Record</th>
+      <th>Ranking</th>
+      <th>Wins (%)</th>
+      <th>Conference</th>
+      <th>Scoring Offense Rank</th>
+      <th>Scoring Offense (PPG)</th>
+      <th>Scoring Defense Rank</th>
+      <th>Scoring Defense (PPG)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Auburn</td>
+      <td>25-2</td>
+      <td>1</td>
+      <td>92.59</td>
+      <td>SEC</td>
+      <td>6</td>
+      <td>84.3</td>
+      <td>69</td>
+      <td>68.1</td>
+    </tr>
+    <tr>
+      <td>Duke</td>
+      <td>24-3</td>
+      <td>2</td>
+      <td>88.89</td>
+      <td>ACC</td>
+      <td>24</td>
+      <td>82.0</td>
+      <td>7</td>
+      <td>61.0</td>
+    </tr>
+    <tr>
+      <td>Florida</td>
+      <td>24-3</td>
+      <td>3</td>
+      <td>88.89</td>
+      <td>SEC</td>
+      <td>11</td>
+      <td>83.6</td>
+      <td>41</td>
+      <td>66.3</td>
+    </tr>
+    <tr>
+      <td>Houston</td>
+      <td>23-4</td>
+      <td>4</td>
+      <td>85.19</td>
+      <td>Big 12</td>
+      <td>143</td>
+      <td>75.1</td>
+      <td>1</td>
+      <td>57.7</td>
+    </tr>
+    <tr>
+      <td>Tennesee</td>
+      <td>22-5</td>
+      <td>5</td>
+      <td>81.48</td>
+      <td>SEC</td>
+      <td>162</td>
+      <td>74.7</td>
+      <td>4</td>
+      <td>60.8</td>
+    </tr>
+    <tr>
+      <td>Alabama</td>
+      <td>22-5</td>
+      <td>6</td>
+      <td>81.48</td>
+      <td>SEC</td>
+      <td>1</td>
+      <td>90.8</td>
+      <td>341</td>
+      <td>80.4</td>
+    </tr>
+    <tr>
+      <td>St. John's</td>
+      <td>24-4</td>
+      <td>7</td>
+      <td>85.71</td>
+      <td>Big East</td>
+      <td>68</td>
+      <td>78.7</td>
+      <td>27</td>
+      <td>65.7</td>
+    </tr>
+    <tr>
+      <td>Michigan State</td>
+      <td>22-5</td>
+      <td>8</td>
+      <td>92.59</td>
+      <td>Big 10</td>
+      <td>59</td>
+      <td>79.0</td>
+      <td>56</td>
+      <td>67.2</td>
+    </tr>
+    <tr>
+      <td>Iowa State</td>
+      <td>21-6</td>
+      <td>9</td>
+      <td>77.78</td>
+      <td>Big 12</td>
+      <td>41</td>
+      <td>80.5</td>
+      <td>51</td>
+      <td>67.0</td>
+    </tr>
+    <tr>
+      <td>Texas Tech</td>
+      <td>21-6</td>
+      <td>10</td>
+      <td>77.78</td>
+      <td>Big 12</td>
+      <td>29</td>
+      <td>81.4</td>
+      <td>46</td>
+      <td>66.5</td>
+    </tr>
+    <tr>
+      <td>Wisconsin</td>
+      <td>21-6</td>
+      <td>11</td>
+      <td>77.78</td>
+      <td>Big 10</td>
+      <td>26</td>
+      <td>81.7</td>
+      <td>143</td>
+      <td>70.9</td>
+    </tr>
+    <tr>
+      <td>Texas A&amp;M</td>
+      <td>20-7</td>
+      <td>12</td>
+      <td>74.07</td>
+      <td>SEC</td>
+      <td>196</td>
+      <td>73.6</td>
+      <td>30</td>
+      <td>66.0</td>
+    </tr>
+    <tr>
+      <td>Clemson</td>
+      <td>22-5</td>
+      <td>13</td>
+      <td>81.48</td>
+      <td>ACC</td>
+      <td>88</td>
+      <td>77.5</td>
+      <td>45</td>
+      <td>66.5</td>
+    </tr>
+    <tr>
+      <td>Missouri</td>
+      <td>20-7</td>
+      <td>14</td>
+      <td>74.07</td>
+      <td>SEC</td>
+      <td>8</td>
+      <td>83.7</td>
+      <td>144</td>
+      <td>70.9</td>
+    </tr>
+    <tr>
+      <td>Michigan</td>
+      <td>20-6</td>
+      <td>15</td>
+      <td>76.92</td>
+      <td>Big 10</td>
+      <td>36</td>
+      <td>80.8</td>
+      <td>157</td>
+      <td>71.2</td>
+    </tr>
+    <tr>
+      <td>Maryland</td>
+      <td>21-6</td>
+      <td>16</td>
+      <td>77.78</td>
+      <td>Big 10</td>
+      <td>9</td>
+      <td>83.7</td>
+      <td>57</td>
+      <td>67.3</td>
+    </tr>
+    <tr>
+      <td>Kentucky</td>
+      <td>18-9</td>
+      <td>17</td>
+      <td>66.67</td>
+      <td>SEC</td>
+      <td>3</td>
+      <td>85.7</td>
+      <td>298</td>
+      <td>76.4</td>
+    </tr>
+    <tr>
+      <td>Memphis</td>
+      <td>22-5</td>
+      <td>18</td>
+      <td>81.48</td>
+      <td>AAC</td>
+      <td>51</td>
+      <td>79.6</td>
+      <td>214</td>
+      <td>73.0</td>
+    </tr>
+    <tr>
+      <td>Louisville</td>
+      <td>21-6</td>
+      <td>19</td>
+      <td>77.78</td>
+      <td>ACC</td>
+      <td>48</td>
+      <td>79.9</td>
+      <td>98</td>
+      <td>69.4</td>
+    </tr>
+    <tr>
+      <td>Purdue</td>
+      <td>19-9</td>
+      <td>20</td>
+      <td>67.86</td>
+      <td>Big 10</td>
+      <td>87</td>
+      <td>77.5</td>
+      <td>123</td>
+      <td>70.1</td>
+    </tr>
+    <tr>
+      <td>Marquette</td>
+      <td>20-7</td>
+      <td>21</td>
+      <td>74.07</td>
+      <td>Big East</td>
+      <td>96</td>
+      <td>76.9</td>
+      <td>60</td>
+      <td>67.6</td>
+    </tr>
+    <tr>
+      <td>Arizona</td>
+      <td>18-9</td>
+      <td>22</td>
+      <td>66.67</td>
+      <td>Big 12</td>
+      <td>28</td>
+      <td>81.6</td>
+      <td>130</td>
+      <td>70.4</td>
+    </tr>
+    <tr>
+      <td>Saint Mary's</td>
+      <td>25-4</td>
+      <td>23</td>
+      <td>86.21</td>
+      <td>WCC</td>
+      <td>155</td>
+      <td>74.8</td>
+      <td>5</td>
+      <td>60.9</td>
+    </tr>
+    <tr>
+      <td>Mississippi State</td>
+      <td>19-8</td>
+      <td>24</td>
+      <td>70.37</td>
+      <td>SEC</td>
+      <td>57</td>
+      <td>79.3</td>
+      <td>181</td>
+      <td>71.9</td>
+    </tr>
+    <tr>
+      <td>BYU</td>
+      <td>19-8</td>
+      <td>25</td>
+      <td>70.37</td>
+      <td>Big 12</td>
+      <td>37</td>
+      <td>80.8</td>
+      <td>106</td>
+      <td>69.5</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
